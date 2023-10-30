@@ -1,32 +1,22 @@
-# React Kanban Board
+**Project Overview:**
+- This is a Kanban board application built using React, with the ability to communicate with the QuickSell API.
 
-An interactive Kanban board application built with React that interacts with the [QuickSell API](https://api.quicksell.co/v1/internal/frontend-assignment).
-## Technologies
-- React
-- Redux
-- Axios
-- React-Icons
-- React-Router
-## Features
+**Technologies Used:**
+- The application leverages several technologies, including React, Redux, Axios, React-Icons, and React-Router.
 
-- **Grouping Options**: Group tasks by Status, User, or Priority.
-- **Ordering Options**: Order tasks by Priority or Title.
-- **Interactive UI**: Manage tasks with an interactive interface.
+**Key Features:**
+- Grouping Options: You can group tasks by Status, User, or Priority.
+- Ordering Options: Tasks can be ordered by Priority or Title.
+- Interactive UI: The application offers an interactive user interface for managing tasks.
 
-## Getting Started
+**Getting Started:**
+1. Clone the repository using the provided Git command.
+2. Install project dependencies by navigating to the project directory and running `npm install`.
+3. Start the development server with `npm start`.
 
-1. Clone the repository:
-   ```shell
-   git clone https://github.com/Amiyanshu-web/quicksell-KanbanBoard.git
- 
-2. Install dependencies:
-    ```shell
-    cd quicksell-KanbanBoard
-    npm install
-3. Starting the development server:
-    ```shell
-        npm start
-## Usage
-- Click the "Display" button to open the display options.
-- Select a grouping option (Status, User, Priority) and an ordering option (Priority, Title).
-- The Kanban board will dynamically adjust to display tasks based on your selections.
+**Usage:**
+- To customize the view, click the "Display" button to open display options.
+- Choose a grouping option (Status, User, Priority) and an ordering option (Priority, Title).
+- The Kanban board will dynamically adjust to display tasks according to your selections.
+
+This application allows you to efficiently manage tasks using the Kanban board interface and offers flexibility in how you organize and order your tasks.
